@@ -10,7 +10,8 @@ import javax.xml.bind.annotation.*;
  * @generated
  */
 @Entity
-@Table(name = "\"OBJ_OBJETO\"")
+@Table(name = "\"OBJ_OBJETO\"" ,uniqueConstraints=@UniqueConstraint(columnNames={
+"sigla" ,"sistema" }))
 @XmlRootElement
 public class Objeto implements Serializable {
 
@@ -30,7 +31,7 @@ public class Objeto implements Serializable {
   /**
   * @generated
   */
-  @Column(name = "sigla", nullable = true, unique = false, length=20, insertable=true, updatable=true)
+  @Column(name = "sigla", nullable = false, unique = true, length=20, insertable=true, updatable=true)
   private java.lang.String sigla;
   
   /**
@@ -56,7 +57,7 @@ public class Objeto implements Serializable {
   * @generated
   */
   @ManyToOne
-  @JoinColumn(name="fk_sistema", nullable = true, referencedColumnName = "id", insertable=true, updatable=true)
+  @JoinColumn(name="fk_sistema", nullable = false, referencedColumnName = "id", insertable=true, updatable=true)
   private Sistema sistema;
   
   /**

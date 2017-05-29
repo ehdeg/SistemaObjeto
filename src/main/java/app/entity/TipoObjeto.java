@@ -31,7 +31,7 @@ public class TipoObjeto implements Serializable {
   /**
   * @generated
   */
-  @Column(name = "sigla", nullable = true, unique = true, length=20, insertable=true, updatable=true)
+  @Column(name = "sigla", nullable = false, unique = true, length=20, insertable=true, updatable=true)
   private java.lang.String sigla;
   
   /**
