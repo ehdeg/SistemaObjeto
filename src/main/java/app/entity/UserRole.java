@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
  * @generated
  */
 @Entity
-@Table(name = "\"USERROLE\"")
+@Table(name = "\"OBJ_USER_ROLE\"")
 @XmlRootElement
 public class UserRole implements Serializable {
 

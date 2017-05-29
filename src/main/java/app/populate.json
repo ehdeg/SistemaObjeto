@@ -16,5 +16,28 @@
     "id": "404BF43E-0E62-4F4A-8A63-3F22D7AD6556",
     "user": { "id" : "304BF43E-0E62-4F4A-8A63-3F22D7AD4611" } ,
     "role": { "id" : "404BF43E-0000-4F4A-8A63-3F22D7AD6556" }
-  }
+  },
+ {
+    "_class": "app.entity.Sistema",
+    "id": "B996091D-3D83-4EBA-AFFE-18AF1A3612D3",
+    "sigla": "Migrador",
+		"descricao": "Sistema Ferramenta de Migração",
+		"observacao": "Sistema utilizado pela ferramenta de migração"
+  },
+
+  {
+    "_class": "app.entity.Sistema",
+    "id": "D5B01463-307D-4B71-9C57-832E4E52128A",
+    "sigla": "Hades",
+		"descricao": "Sistema Hades",
+		"observacao": "Sistema Hades, relacionado ao Ergon"
+  },
+
+  {
+    "_class": "app.entity.Sistema",
+    "id": "8A5F3212-5D91-4052-A1C1-9AD4C0A68189",
+    "sigla": "Ergon",
+		"descricao": "Sistema Ergon",
+		"observacao": "Sistema Ergon"
+  }  
 ]

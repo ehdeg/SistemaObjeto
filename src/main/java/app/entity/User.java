@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
  * @generated
  */
 @Entity
-@Table(name = "\"USER\"" ,uniqueConstraints=@UniqueConstraint(columnNames={
+@Table(name = "\"OBJ_USER\"" ,uniqueConstraints=@UniqueConstraint(columnNames={
 "login" }))
 @XmlRootElement
 public class User implements Serializable {

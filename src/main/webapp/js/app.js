@@ -115,7 +115,7 @@ var app = (function() {
       });
 
       $translateProvider.registerAvailableLanguageKeys(
-        ['pt_br', 'en_us'], {
+        ['pt_br', 'pt_br'], {
           'en*': 'en_us',
           'pt*': 'pt_br',
           '*': 'pt_br'
